@@ -30,7 +30,7 @@ public class dniRAF {
         }while( true );
 
     }
-
+    //Falta cambiar que guarde usuarios del 1 al 1000 y no del 000 al 999
     public static void alta(){
         System.out.println("\nPrograma");
         try(RandomAccessFile raf = new RandomAccessFile("dniEmpleados.dat","rw")){
