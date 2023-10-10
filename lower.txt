@@ -1,1 +1,1 @@
-prueba para convertir a mayusculas
+Todo esto debe convertirse a mayúsculas
