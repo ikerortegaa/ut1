@@ -1,15 +1,13 @@
 /*Hacer ejercicio que cambie minúsculas a mayúsculas y lo copie en otro fichero*/
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
 import java.nio.channels.FileChannel;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-
-public class lowerToUpper {
+/*3. Hacer un programa que, utilizando canales y búferes NIO, haga una copia de un fichero de texto en otro fichero donde las minúsculas sean convertidas a mayúsculas.
+ */
+public class ej3 {
     public static void main(String[] args) {
         try (FileChannel fce = FileChannel.open(Paths.get("upper.txt"),StandardOpenOption.WRITE, StandardOpenOption.CREATE);
              FileChannel fcl = FileChannel.open(Paths.get("lower.txt"), StandardOpenOption.READ))

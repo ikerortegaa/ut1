@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class dniRAF {
     static Scanner ent = new Scanner(System.in);
-    final static int TAM = 44;
+    final static int TAM = 40;
 
     public static void main(String[] args) {
 
@@ -76,7 +76,7 @@ public class dniRAF {
         }catch(EOFException ignored){
 
         }catch(IOException e){
-            System.err.println(e.getMessage());
+
         }
     }
     /*public static void mostrarTodos()
