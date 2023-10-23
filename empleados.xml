@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <empleados>
+        <empleado>
+            <id>1</id>
+            <nombre>Pepe Pérez</nombre>
+            <salario>2000.0</salario>
+        </empleado>
+        <empleado>
+            <id>2</id>
+            <nombre>Julián Muñoz</nombre>
+            <salario>1000.0</salario>
+        </empleado>
+        <empleado>
+            <id>3</id>
+            <nombre>Sergio Ramos</nombre>
+            <salario>1500.0</salario>
+        </empleado>
+    </empleados>
+</xml>
